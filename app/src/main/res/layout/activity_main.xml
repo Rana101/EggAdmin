@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/egg"
+    tools:context="com.raju10naidugmail.eggadmin.MainActivity">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Andhra Pradesh"
+        android:clickable="true"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:id="@+id/button"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@drawable/eggico"
+        android:layout_marginTop="70dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Karnataka"
+        android:drawableLeft="@drawable/eggico"
+        android:clickable="true"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:id="@+id/button2"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="130dp"
+        android:layout_alignEnd="@+id/button"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_alignStart="@+id/button" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Telangana"
+        android:drawableLeft="@drawable/eggico"
+        android:clickable="true"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:id="@+id/button3"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="190dp"
+        android:layout_alignEnd="@+id/button"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_alignStart="@+id/button" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tamil Nadu"
+        android:drawableLeft="@drawable/eggico"
+        android:clickable="true"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:id="@+id/button4"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="250dp"
+        android:layout_alignEnd="@+id/button"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_alignStart="@+id/button" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Maharashtra"
+        android:drawableLeft="@drawable/eggico"
+        android:clickable="true"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:id="@+id/button5"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="310dp"
+        android:layout_alignEnd="@+id/button"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_alignStart="@+id/button" />
+
+
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="North India"
+                android:drawableLeft="@drawable/eggico"
+                android:clickable="true"
+                android:textAllCaps="false"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                style="?android:attr/borderlessButtonStyle"
+                android:id="@+id/button6"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="370dp"
+                android:layout_alignEnd="@+id/button"
+                android:layout_alignStart="@+id/button" />
+
+    </ScrollView>
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:clickable="true"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:id="@+id/button7"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="430dp"
+        android:layout_alignEnd="@+id/button"
+        android:layout_alignStart="@+id/button" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="10"
+        android:hint="Date"
+        android:textAlignment="center"
+        android:clickable="true"
+        android:id="@+id/editText"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/button"
+        android:layout_alignEnd="@+id/button" />
+
+</RelativeLayout>
